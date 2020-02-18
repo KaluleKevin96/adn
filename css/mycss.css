@@ -1,0 +1,41 @@
+/*
+main color - #174ea0
+*/
+
+.text-white {
+    color: #fff!important;
+}
+
+.adn_logo{
+	margin-top :0%;
+}
+.adn_logo a img  {
+	width : 300px;
+}
+
+.sticky_header .adn_logo a img{
+	vertical-align: middle;
+	width : 250px;
+}
+
+/*#main-navigation-inn .nav {
+	background: #fff !important;
+}*/
+
+/* MEDIA QUERIES FOR LAPTOP */
+@media all and (min-width : 900px) {
+    
+    #slider_wrapper {
+        height: 670px;
+        /*display:none;*/
+    }
+}
+
+/* MEDIA QUERIES FOR SMALLER SCREEN */
+@media all and (max-width : 1000px) {
+    
+    .adn_logo a img {
+       
+        display:none;
+    }
+}
