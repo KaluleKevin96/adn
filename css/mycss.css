@@ -3,28 +3,37 @@ main color - #174ea0
 */
 
 .text-white {
-    color: #fff!important;
+    color: #fff !important;
 }
 
-.adn_logo{
-	margin-top :0%;
-}
-.adn_logo a img  {
-	width : 300px;
+.adn_logo {
+    margin-top: 0%;
 }
 
-.sticky_header .adn_logo a img{
-	vertical-align: middle;
-	width : 250px;
+.adn_logo a img {
+    width: 300px;
+}
+
+.sticky_header .adn_logo a img {
+    vertical-align: middle;
+    width: 250px;
 }
 
 /*#main-navigation-inn .nav {
 	background: #fff !important;
 }*/
 
+ul.banner_btm_list li {
+    height: 250px;
+}
+
+ul.banner_btm_list li.lytblue_prd_bg p {
+    line-height: 25px;
+}
+
 /* MEDIA QUERIES FOR LAPTOP */
 @media all and (min-width : 900px) {
-    
+
     #slider_wrapper {
         height: 670px;
         /*display:none;*/
@@ -33,9 +42,14 @@ main color - #174ea0
 
 /* MEDIA QUERIES FOR SMALLER SCREEN */
 @media all and (max-width : 1000px) {
-    
+
     .adn_logo a img {
-       
-        display:none;
+
+        display: none;
     }
+
+    ul.banner_btm_list li {
+        height: auto;
+    }
+
 }

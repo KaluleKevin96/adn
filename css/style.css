@@ -3334,33 +3334,67 @@ ul.banner_btm_list li p {
 	line-height:22px;
 }
 ul.banner_btm_list li.yellow_prd_bg {
-	background:url(../images/home_page_variation3/yellow_lst_bg.jpg) no-repeat center top;
+	/*background:url(../images/adn/our_values_bg.JPG) no-repeat center top;*/
+	/*background-color: rgba(45 , 61 , 77 , 0.5);*/
+	background-image: linear-gradient(to bottom, rgba(45 , 61 , 77 , 0.92), rgba(45 , 61 , 77 , 0.75)),
+	url('../images/adn/our_vision_bg.JPG');
+
 	background-size:cover;
 }
+/*our vision section*/
 ul.banner_btm_list li.yellow_prd_bg h4 a {
-	color:#000;
+	color:/*#000*/ #fff;
+}
+ul.banner_btm_list li.yellow_prd_bg h4:hover a {
+	color:/*#000*/ /*#174ea0*/ #05d1fa;
+	font-weight: bolder;
+	font-size:115%;
 }
 ul.banner_btm_list li.yellow_prd_bg p {
-	color:#000;
+	color:/*#000*/ #fff;
 }
 ul.banner_btm_list li.blue_prd_bg {
-	background:url(../images/home_page_variation3/blue_lst_bg.jpg) no-repeat center top;
+	/*background:url(../images/home_page_variation3/blue_lst_bg.jpg) no-repeat center top;*/
+	background-image: linear-gradient(to bottom, rgba(247 , 247 , 249 , 0.98), rgba(247 , 247 , 249 , 0.78)),
+	url('../images/adn/our_mission_bg3.JPG');
+
 	background-size:cover;
+	background-position:center;
 }
 ul.banner_btm_list li:hover {
 	-webkit-transform: scale3d(1.1, 1.1, 1.1);
 	z-index:99999;
 }
-ul.banner_btm_list li.blue_prd_bg h4 a {
-	color:#debc60;
+
+/*our mission section*/
+ul.banner_btm_list li.blue_prd_bg h4 a , ul.banner_btm_list li.blue_prd_bg p {
+	color:/*#1a0194*/ #174ea0 ;
+	font-weight: bold;
 }
+ul.banner_btm_list li.blue_prd_bg h4:hover a {
+	color: /*#174ea0*/ #05d1fa;
+	font-weight: bolder;
+	font-size:115%;
+}
+
+/*our values section*/
 ul.banner_btm_list li.lytblue_prd_bg {
-	background:url(../images/home_page_variation3/lgtblue_lst_bg.jpg) no-repeat center top;
+	/*background:url(../images/home_page_variation3/lgtblue_lst_bg.jpg) no-repeat center top;*/
+
+	background-image: linear-gradient(to bottom, rgba(66 , 188 , 239 , 0.98), rgba(66 , 188 , 239 , 0.78)),
+	url('../images/adn/our_values_bg.JPG');
 	background-size:cover;
 }
 ul.banner_btm_list li.lytblue_prd_bg h4 a {
 	color:#fff;
 }
+
+ul.banner_btm_list li.lytblue_prd_bg h4:hover a {
+	color:#174ea0;
+	font-weight: bolder;
+	font-size:115%;
+}
+
 ul.banner_btm_list li.lytblue_prd_bg p {
 	color:#fff;
 }
