@@ -6,6 +6,18 @@ main color - #174ea0
     color: #fff !important;
 }
 
+.text-right {
+    text-align: right !important;
+}
+
+.float-right {
+    float: right !important;
+}
+
+.text-center {
+    text-align: center !important;
+}
+
 .adn_logo {
     margin-top: 0%;
 }
@@ -23,12 +35,77 @@ main color - #174ea0
 	background: #fff !important;
 }*/
 
+ul.expert_list li {
+	height:315px;
+}
+
 ul.banner_btm_list li {
     height: 250px;
 }
 
 ul.banner_btm_list li.lytblue_prd_bg p {
     line-height: 25px;
+}
+
+p.exprt_txt {
+    font-size: 115%;
+    text-align: justify;
+}
+
+.exprt_col2 {
+    margin: 0px 0px 10px;
+}
+
+#our_project img {
+    height: 325px;
+}
+
+.accordion-toggle.active {
+	background:#174ea0 !important;
+}
+
+.service_capabilities li {
+    padding-left: 1.3em;
+}
+
+.service_capabilities li:before {
+    color: #174ea0;
+    content: "\f00c";
+    /* FontAwesome Unicode */
+    font-family: FontAwesome;
+    display: inline-block;
+    margin-left: -1.3em;
+    /* same as padding-left set on li */
+    width: 1.3em;
+    /* same as padding-left set on li */
+}
+
+.core_txt p{
+	text-align: justify-all;
+}
+.core_txt .read_more , #our_team .read_more{
+	margin:2.5% 0%;
+	text-align : end;
+}
+
+.coverage img {
+	width:70%;
+	float:right;
+	padding-left:1.5%;
+}
+
+.coverage p {
+	font-size:115%;
+}
+
+#our_team img{
+	height : 220px;
+	text-align: center;
+	/*border-radius: 500%;*/
+}
+
+#our_team p {
+	font-size:107%;
 }
 
 /* MEDIA QUERIES FOR LAPTOP */
@@ -51,5 +128,10 @@ ul.banner_btm_list li.lytblue_prd_bg p {
     ul.banner_btm_list li {
         height: auto;
     }
+
+    #our_team img{
+	height : 250px;
+	
+}
 
 }

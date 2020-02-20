@@ -66,7 +66,7 @@ h1, h2, h3, h4, h5, h6 {
 }*/
 p {
 	font-family: 'Open Sans', sans-serif;
-	font-size: 16px;
+	font-size: /*18px*/ 115%;
 	color: #797979;
 	/*letter-spacing: .40px;*/
 	margin: 0px;
@@ -1363,7 +1363,7 @@ a.view-all.slide_learn_btn.view_project_btn {
 	float: left;
 	font-size: 18px;
 	text-align: center;
-	background: #d5b157;
+	background: /*#d5b157*/ #174ea0;
 	color: #fff;
 	line-height: 50px;
 	bottom: -60px;
@@ -2895,9 +2895,9 @@ ul.core_list {
 }
 ul.core_list li {
 	list-style:none;
-	float:left;
-	font-size:14px;
-	background:url(../images/home_page/right_Ar.png) no-repeat 0px 6px;
+	/*float:left;*/
+	font-size:18px;
+	/*background:url(../images/home_page/right_Ar.png) no-repeat 0px 6px;*/
 	padding-left:30px;
 	margin:0px 31px 0px 10px;
 }
@@ -2986,15 +2986,15 @@ a.view-all.work_btn {
 	position:relative;
 }
 .news_Date {
-	background:#d5b157;
-	font-size:14px;
+	background:/*#d5b157*/ #174ea0;
+	font-size:16px;
 	color:#fff;
 	font-weight:600;
 	position:absolute;
 	bottom:45px;
 	z-index: 9;
 	left:20px;
-	width:126px;
+	width:/*126px*/ auto;
 	line-height:31px;
 	text-align:center;
 	border-radius:5px;
@@ -3443,20 +3443,36 @@ ul.expert_list li .lst_icon {
 	display:inline-block;
 }
 .material_icon1 {
-	background:url(../images/home_page_variation3/material_icon1.png) no-repeat 0px 0px;
+	background:url(../images/adn/expert_list_icons/material_icon1.png) no-repeat 0px 0px;
 }
+
+.transportation_icon1 {
+	background:url(../images/adn/expert_list_icons/first_class.png) no-repeat 0px 0px;
+}
+
+.oillubricant_icon1 {
+	background:url(../images/adn/expert_list_icons/oil_lubricant_icon1.png) no-repeat 0px 0px;
+}
+
+.construction_icon1 {
+	background:url(../images/adn/expert_list_icons/delicate_team.png) no-repeat 0px 0px;
+}
+
+.fast_penetration_icon1 {
+	background:url(../images/adn/expert_list_icons/delivery_time.png) no-repeat 0px 0px;
+}
+
+.power_icon1 {
+	background:url(../images/adn/expert_list_icons/power_icon1.png) no-repeat 0px 0px;
+}
+
 .agriculture_icon1 {
 	background:url(../images/home_page_variation3/agriculture_icon1.png) no-repeat 0px 0px;
-}
-.oillubricant_icon1 {
-	background:url(../images/home_page_variation3/oil_lubricant_icon1.png) no-repeat 0px 0px;
 }
 .chemical_icon1 {
 	background:url(../images/home_page_variation3/chemical_icon1.png) no-repeat 0px 0px;
 }
-.power_icon1 {
-	background:url(../images/home_page_variation3/power_icon1.png) no-repeat 0px 0px;
-}
+
 .mechanical_icon1 {
 	background:url(../images/home_page_variation3/mechanical_icon1.png) no-repeat 0px 0px;
 }
@@ -3470,9 +3486,9 @@ ul.expert_list li p {
 	margin-bottom:10px;
 }
 ul.expert_list li:hover {
-	background:#172738;
+	background:/*#172738*/ #174ea0;
 }
-ul.expert_list li:hover .material_icon1 {
+/*ul.expert_list li:hover .material_icon1 {
 	background:url(../images/home_page_variation3/material_icon1_hover.png) no-repeat 0px 0px;
 }
 ul.expert_list li:hover .agriculture_icon1 {
@@ -3489,17 +3505,22 @@ ul.expert_list li:hover .power_icon1 {
 }
 ul.expert_list li:hover .mechanical_icon1 {
 	background:url(../images/home_page_variation3/mechanical_icon1_hover.png) no-repeat 0px 0px;
-}
+}*/
 ul.expert_list li:hover h4 a {
-	color:#f2cd69;
+	color:/* #f2cd69 */ /*#05d1fa*/ /*#172738*/ #fff;
 }
 ul.expert_list li:hover p {
 	color:#a0a0a0;
 }
 ul.expert_list li:hover a.read_more {
-	text-decoration:underline;
-	color:#2488e6;
+	text-decoration:none;
+	color:/*#2488e6*/ #fff;
 }
+ul.expert_list li:hover a.read_more:hover {
+	text-decoration:underline;
+	color:/*#2488e6*/ #172738;
+}
+
 p.white_color1 {
 	color:#fff;
 }
@@ -5039,12 +5060,12 @@ a.view-all.slide_learn_btn {
 	padding: 0px;
 	line-height:62px;*/
 	    /* letter-spacing: 0.5px; */
-    border: 1px solid #5DB5FF;
+    border: 3px solid /*#5DB5FF*/  #174ea0;
     color: #FFFFFF;
     font-family: 'Poppins';
     font-weight: 500;
     font-size: 16px;
-    background: #5DB5FF;
+    background: /*#5DB5FF*/  #174ea0;
     width: auto;
     line-height: 1;
     padding: 17px 39px;
@@ -5056,7 +5077,11 @@ a.view-all.slide_learn_btn {
 	-webkit-animation-delay: 1.5s;
 	animation-delay: 1.5s;
 }
-a.view-all.slide_learn_btn:hover {background: #242424;border-color: #242424;}
+a.view-all.slide_learn_btn:hover {
+	background: /*#242424*/ whitesmoke;
+	border-color: /*#242424*/  #174ea0;
+	color : #174ea0;
+}
 a.view-all.slide_learn_btn:before {
 	border-radius:4px;
 	display: none;
@@ -5137,9 +5162,9 @@ ul.core_list {
 }
 ul.core_list li {
 	list-style:none;
-	float:left;
-	font-size:14px;
-	background:url(../images/home_page/right_Ar.png) no-repeat 0px 6px;
+	/*float:left;*/
+	font-size:18px;
+	/*background:url(../images/home_page/right_Ar.png) no-repeat 0px 6px;*/
 	padding-left:30px;
 	margin:0px 31px 0px 10px;
 }
@@ -5228,18 +5253,20 @@ a.view-all.work_btn {
 	position:relative;
 }
 .news_Date {
-	background:#d5b157;
-	font-size:14px;
+	background:/*#d5b157*/ #174ea0;
+	font-size:18px;
 	color:#fff;
 	font-weight:600;
 	position:absolute;
 	bottom:45px;
 	z-index: 1;
 	left:20px;
-	width:126px;
+	width:/*126px*/ auto;
 	line-height:31px;
 	text-align:center;
 	border-radius:5px;
+
+	padding:2%;
 }
 .support_br {
 	border:1px solid #d9d9d9;
@@ -7418,8 +7445,8 @@ p.p_award_color {color: #FFFFFF;opacity: .56;}
 .footer-cta .left-text h3 {font-size: 26px;font-family: 'Poppins';font-weight: 500;margin: 0;color: #FFFFFF;margin: 0;line-height: 47px;}
 .footer-cta .left-text h3:after {display: none;}
 .footer-cta .btn-box {}
-.footer-cta .btn-box a.cta-btn {border-radius: 3px;background: #E5BB34;color: #000000;font-size: 18px;font-family: 'Poppins';font-weight: 500;padding: 11px 41px;display: inline-block;transition: all .4s ease;}
-.footer-cta .btn-box a.cta-btn:hover{color: #fff;background: #242424;}
+.footer-cta .btn-box a.cta-btn {border-radius: 3px;background: #05d1fa/*E5BB34*/;color: #000000;font-size: 18px;font-family: 'Poppins';font-weight: 500;padding: 11px 41px;display: inline-block;transition: all .4s ease;}
+.footer-cta .btn-box a.cta-btn:hover{color: #fff;background: none/*242424*/; border:2px solid #fff;}
 
 .inner-banner {
   background: url(../images/common_image/service-page_bnr.jpg) no-repeat center top;
