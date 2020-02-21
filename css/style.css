@@ -362,7 +362,7 @@ h5.fnt_black_color a:hover {
 	background: #1e1e1e;
 }
 .wdt_img {
-	float: left;
+	/*float: left;*/
 }
 .img_100 {
 	width: 100%;
@@ -645,6 +645,9 @@ input, select {
 }
 .padtb_81_30 {
 	padding: 81px 0px 30px;
+}
+.padtb_50_30 {
+	padding: 50px 0px 30px;
 }
 .padtb_100_100 {
 	padding: 100px 0px;
@@ -5796,7 +5799,7 @@ footer h6:after {
 	width:25px;
 	height:1px;
 	content:"";
-	background:#d6b34a;
+	background:/*#d6b34a*/ #174ea0;
 	bottom:0px;
 	right:-35px;
 }
@@ -5808,11 +5811,12 @@ footer p {
 	line-height:24px;
 }
 a.ftr_readmore {
-	font-size:14px;
-	color:#927f3c;
-	float:left;
+	font-size:15px;
+	color:/*#927f3c*/ /*#174ea0*/ #2488e6;
+	float:right;
+	/*text-align: end;*/
 	text-decoration:none;
-	background:url(../images/common_image/ftr_read_ar.png) no-repeat right center;
+	/*background:url(../images/common_image/ftr_read_ar.png) no-repeat right center;*/
 	padding-right:15px;
 }
 a.ftr_readmore:hover {
@@ -5840,8 +5844,8 @@ a.ftr_readmore:hover {
 	font-size: 15px;
 }
 .ftr_social a i:hover {
-	color: #e5c463;
-	border: 1px solid #e5c463;
+	color: /*#e5c463*/ #fff;
+	border: 1px solid /*#e5c463*/#fff;
 }
 ul.ftr_nav {
 	margin:0px;
