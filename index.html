@@ -44,9 +44,9 @@
                             <a href="#" class="hvr-bounce-to-bottom text-white">
                                 <i aria-hidden="true" class="fa fa-twitter"></i>
                             </a>
-                            <a href="#" class="hvr-bounce-to-bottom text-white">
+                           <!--  <a href="#" class="hvr-bounce-to-bottom text-white">
                                 <i aria-hidden="true" class="fa fa-google-plus"></i>
-                            </a>
+                            </a> -->
                             <a href="#" class="hvr-bounce-to-bottom text-white">
                                 <i aria-hidden="true" class="fa fa-linkedin"></i>
                             </a>
@@ -59,7 +59,7 @@
             <nav id="main-navigation-wrapper" class="navbar navbar-default finance-navbar var2_main_menu_wrapper var3_main_menu_wrapper">
                 <div class="thm-container">
                     <div class="navbar-header">
-                        <div class="logo-menu"><a href="index.html"><img src="images/adn/adn_logo.png" alt="ADN Drilling Solutions Ltd"></a></div>
+                        <div class="logo-menu"><a href="index.html"><img src="images/adn/adn_png_logo.png" alt="ADN Drilling Solutions Ltd"></a></div>
                         <button type="button" data-toggle="collapse" data-target="#main-navigation" aria-expanded="false" class="navbar-toggle collapsed"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button>
                     </div>
                     <!-- main navigation bar -->
@@ -67,7 +67,7 @@
                         <div class="row m_zero">
                             <div class="col-md-3 col-sm-12 col-xs-12 adn_logo">
                                 <a href="index.html">
-                                    <img src="images/adn/adn_logo.png" alt="ADN Drilling Solutions Ltd">
+                                    <img src="images/adn/adn_png_logo.png" alt="ADN Drilling Solutions Ltd">
                                 </a>
                             </div>
                             <div class="col-md-9 col-sm-12 col-xs-12 pull-right col_pad_zero var3_mob_padzero">
@@ -85,8 +85,8 @@
                                         <li class="dropdown"><a href="#">About ADN</a>
                                             <ul class="dropdown-submenu">
                                                 <li><a href="about_us.html">Introduction</a></li>
-                                                <li><a href="our_team.html">ADN Team</a></li>
-                                                <li><a href="testimonials.html">Testimonials</a></li>
+                                                <li><a href="#">ADN Team</a></li>
+                                                <li><a href="#">Testimonials</a></li>
                                             </ul>
                                         </li>
                                         <li class="dropdown"><a href="allservices.html">Services</a>
@@ -98,7 +98,7 @@
                                             </ul>
                                         </li>
                                         <li><a href="#">Equipment</a></li>
-                                        <li><a href="#">Contact Us</a></li>
+                                        <li><a href="contact.html">Contact Us</a></li>
                                     </ul>
                                     <!-- <div class="hdr_search second_var_hdr_search search_mobile_none">
                       <button type="submit" class="btn btn-default"></button>
@@ -123,7 +123,7 @@
                         <div class="box valign-middle">
                             <div class="content text-center">
                                 <h1 data-animation="animated fadeInUp">Efficient And Execellent Work</h1>
-                                <p data-animation="animated fadeInDown">High Quality Services from a blend of a Reliable and Professionally Team using State Of The Art Equipment </p>
+                                <p data-animation="animated fadeInDown">High Quality Services from a blend of a Reliable and Professional Team using State Of The Art Equipment </p>
                             </div>
                         </div>
                     </div>
@@ -306,9 +306,9 @@
                         <div class="accordion-first clearfix">
                             <div id="accordion2" class="accordion">
                                 <div class="accordion-group">
-                                    <div class="accordion-heading var3_accordian"><a data-toggle="collapse" data-parent="#accordion1" href="#collapseOne" class="accordion-toggle collapsed">
+                                    <div class="accordion-heading var3_accordian"><a data-toggle="collapse" data-parent="#accordion1" href="#collapseOne" class="accordion-toggle active">
                                             <em class="icon-fixed-width fa fa-minus"></em>Service Capabilities</a></div>
-                                    <div id="collapseOne" style="height: 0px;" class="accordion-body collapse">
+                                    <div id="collapseOne" style="height: 0px;" class="accordion-body collapse in">
                                         <div class="accordion-inner">
                                             <!-- <span class="wdt_img core_img fl"><img src="images/home_page/core_img1.jpg" alt="core1"></span> -->
                                             <div class="core_txt fl" style="width:auto;">
@@ -361,16 +361,18 @@
                                 </div>
                                 <div class="accordion-group">
                                     <div class="accordion-heading var3_accordian">
-                                      <a data-toggle="collapse" data-parent="#accordion2" href="#collapseFour" class="accordion-toggle active">
-                                            <em class="icon-fixed-width fa fa-plus"></em>Our Location</a></div>
-                                    <div id="collapseFour" style="height: 0px;" class="accordion-body collapse in">
+                                      <a data-toggle="collapse" data-parent="#accordion2" href="#collapseFour" class="accordion-toggle collapsed">
+                                            <em class="icon-fixed-width fa fa-plus"></em>Our Coverage</a></div>
+                                    <div id="collapseFour" style="height: 0px;" class="accordion-body collapse">
                                         <div class="accordion-inner">
-                                            <div class="core_txt fl" style="width:100%;">
-                                                <p style="width:85%;">
-                                                    ADN provides technical know-how and resources from early drilling,
-                                                    mining exploration and transportation stages through to the production phase of
-                                                    developments from which the resource industry and clients are able to benefit.
-                                                </p>
+                                            <div class="core_txt fl coverage" style="width:100%;">
+                                                 <div class="variation2_about_img full_width mbot35 img-responsive">
+                        <!-- <span class="first_img"></span> -->
+                        <img src="images/adn/coverage.JPG" alt="">
+                        <!-- <span class="second_img"><img src="images/home_page_variation2/variation2_about_img2.jpg" alt=""></span> -->
+                         <p>Our presence is in <b>Uganda</b> and strongly felt in the East African Region with the mother company in <b>Tanzania</b> which strives to have global presence.</p>
+                    </div>
+                   
                                                 <!-- <a href="#" class="read_more">Read more</a> -->
                                             </div>
                                         </div>
@@ -383,14 +385,19 @@
                 </div>
                 <!-- =========core value col end============-->
                 <!-- =========coverage col start============-->
-                <div class="col-lg-5 col-md-5 col-sm-12 col-xs-12 pad_zero col_margin coverage">
-                    <h3 class="fnt_dark_color_s">Our Coverage</h3>
-                    <div class="variation2_about_img full_width mbot35 img-responsive">
-                        <!-- <span class="first_img"></span> -->
-                        <img src="images/adn/coverage.JPG" alt="">
-                        <!-- <span class="second_img"><img src="images/home_page_variation2/variation2_about_img2.jpg" alt=""></span> -->
-                    </div>
-                    <p>Our presence is in <b>Uganda</b> and strongly felt in the East African Region with the mother company in <b>Tanzania</b> which strives to have global presence.</p>
+                <div class="col-lg-5 col-md-5 col-sm-12 col-xs-12 pad_zero col_margin location">
+                    <h3 class="fnt_dark_color_s">Our Location</h3>
+                    <p> You can find our offices at; 
+                      <ul class="locations">
+                        <li>
+                          <i class="fa fa-map-marker"></i> <p> Sakina <br/> Nairobi Road <br/> ARUSHA, TANZANIA </p>
+                        </li>
+                        <li>
+                          <i class="fa fa-map-marker"></i> <p> Minister's Village - Ntinda <br/> Corporation Road <br/> KAMPALA, UGANDA </p>
+                        </li>
+                      </ul>
+                    </p>
+                   
                 </div>
                 <!-- =========coverage col end============-->
             </div>
@@ -432,7 +439,7 @@
                     <h3>Have you any question or need any help for work consultantion</h3>
                 </div><!-- /.pull-left left-text -->
                 <div class="pull-right btn-box">
-                    <a href="#" class="cta-btn">Contact Us</a>
+                    <a href="contact.html" class="cta-btn">Contact Us</a>
                 </div><!-- /.pull-right -->
             </div><!-- /.container -->
         </div><!-- /.footer-cta -->
@@ -453,7 +460,7 @@
                         <div class="enitre_mouse">
                             <div class="wdt_img news_img"><span class="news_Date">Director</span>
                                 <div class="shadow_effect effect-apollo mbot25">
-                                  <img src="images/home_page/latest_news_img1.jpg" alt="News Img1"></div>
+                                  <img src="images/adn/team/Dan_Kidega.PNG" alt="Rt. Hon. Daniel Fred Kidega"></div>
                             </div>
                             <h5 class="line_heig26 letter_spac0 mbot10 mtopminus5 fnt_black_color"><a href="#">Rt. Hon. Daniel Fred Kidega</a></h5>
                             <p class="mbot10">
@@ -468,7 +475,8 @@
                     <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 responsive_mrbtm">
                         <div class="enitre_mouse">
                             <div class="wdt_img news_img"><span class="news_Date">General Manager</span>
-                                <div class="shadow_effect effect-apollo mbot25"><img src="images/home_page/latest_news_img2.jpg" alt="News Img2"></div>
+                                <div class="shadow_effect effect-apollo mbot25">
+                                  <img src="images/adn/team/team_img4.jpg" alt="Mr. Ali Dotto Ntegwa"></div>
                             </div>
                             <h5 class="line_heig26 letter_spac0 mbot10 mtopminus5 fnt_black_color"><a href="#">Mr. Ali Dotto Ntegwa</a></h5>
                             <p class="mbot10">
@@ -485,7 +493,8 @@
                     <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
                         <div class="enitre_mouse">
                             <div class="wdt_img news_img"><span class="news_Date">Country Manager</span>
-                                <div class="shadow_effect effect-apollo mbot25"><img src="images/home_page_variation3/latest_blog_img3.jpg" alt="News Img3"></div>
+                                <div class="shadow_effect effect-apollo mbot25">
+                                  <img src="images/adn/team/team_img5.jpg" alt="Mr. Charles Genga"></div>
                             </div>
                             <h5 class="line_heig26 letter_spac0 mbot10 mtopminus5 fnt_black_color"><a href="#">Mr. Charles Genga</a></h5>
                             <p class="mbot10">
@@ -500,7 +509,8 @@
                     <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
                         <div class="enitre_mouse">
                             <div class="wdt_img news_img"><span class="news_Date">Technical Supervisor</span>
-                                <div class="shadow_effect effect-apollo mbot25"><img src="images/home_page_variation3/latest_blog_img3.jpg" alt="News Img3"></div>
+                                <div class="shadow_effect effect-apollo mbot25">
+                                  <img src="images/adn/team/team_img7.jpg" alt="Mr. Oswadi Mugalama"></div>
                             </div>
                             <h5 class="line_heig26 letter_spac0 mbot10 mtopminus5 fnt_black_color"><a href="#">Mr. Oswadi Mugalama</a></h5>
                             <p class="mbot10">
@@ -514,7 +524,8 @@
                     <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
                         <div class="enitre_mouse">
                             <div class="wdt_img news_img"><span class="news_Date">Maintenance Engineer</span>
-                                <div class="shadow_effect effect-apollo mbot25"><img src="images/home_page_variation3/latest_blog_img3.jpg" alt="News Img3"></div>
+                                <div class="shadow_effect effect-apollo mbot25">
+                                  <img src="images/adn/team/team_img8.jpg" alt="Mr. Hassan R. Gogola"></div>
                             </div>
                             <h5 class="line_heig26 letter_spac0 mbot10 mtopminus5 fnt_black_color"><a href="#">Mr. Hassan R. Gogola</a></h5>
                             <p class="mbot10">
@@ -632,26 +643,32 @@
     <!-- =========footer start============-->
     <footer class="full_width">
         <!-- Footer_Container Start-->
-        <div class="ftr_mid full_width padtb_81_30">
+        <div class="ftr_mid full_width padtb_50_30">
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 ftr_txt_div mbot30"><img src="images/common_image/ftr_logo.png" alt="footer logo">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et.</p><a href="about_us.html" class="ftr_readmore">Read More</a>
-                        <div class="ftr_social"><a href="#"><i aria-hidden="true" class="fa fa-facebook"></i></a><a href="#"><i aria-hidden="true" class="fa fa-twitter"></i></a><a href="#"><i aria-hidden="true" class="fa fa-google-plus"></i></a><a href="#"><i aria-hidden="true" class="fa fa-linkedin"></i></a></div>
+                    <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 ftr_txt_div mbot30 footer_img">
+                      <img src="images/adn/adn_png_logo3.png" alt="footer logo">
+                        <p>Strengthening efforts to provide Access to Safe and Clean Water And Promote The Mining and Exploration Sector in Africa </p>
+                        <a href="about_us.html" class="ftr_readmore">Read More ...</a>
+
+                        <div class="ftr_social">
+                          <a href="#"><i aria-hidden="true" class="fa fa-facebook"></i></a>
+                          <a href="#"><i aria-hidden="true" class="fa fa-twitter"></i></a>
+                          <!-- <a href="#"><i aria-hidden="true" class="fa fa-google-plus"></i></a> -->
+                          <a href="#"><i aria-hidden="true" class="fa fa-linkedin"></i></a></div>
                     </div>
-                    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 mbot30 service_link_desk">
+                   <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 mbot30 service_link_desk">
                         <div class="plft30">
                             <h6>Our Services</h6>
                             <ul class="ftr_nav">
-                                <li><a href="material_engineering.html">Material Enginnering</a></li>
-                                <li><a href="agriculture_processing.html">Agriculture Processing</a></li>
-                                <li><a href="mechanical_engineering.html">Mechanical Engineering</a></li>
-                                <li><a href="chemical_research.html">Chemical Research</a></li>
-                                <li><a href="power_energy.html">Power & Energy</a></li>
+                                <li><a href="#">Construction</a></li>
+                                <li><a href="#">Transportation</a></li>
+                                <li><a href="#">Mineral Drilling and Blasting Holes</a></li>
+                                <li><a href="#">Service Capabilities</a></li> 
                             </ul>
                         </div>
                     </div>
-                    <div class="col-lg-2 col-md-2 col-sm-6 col-xs-12 mbot30 quick_link_mob">
+                     <!-- <div class="col-lg-2 col-md-2 col-sm-6 col-xs-12 mbot30 quick_link_mob">
                         <h6>Quick Links</h6>
                         <ul class="ftr_nav">
                             <li><a href="index.html">Home</a></li>
@@ -660,20 +677,19 @@
                             <li><a href="news.html">News</a></li>
                             <li><a href="#">Career</a></li>
                         </ul>
-                    </div>
-                    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 mbot30 service_link_mob">
+                    </div> -->
+                    <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 mbot30 service_link_mob">
                         <div class="plft30">
                             <h6>Our Services</h6>
                             <ul class="ftr_nav">
-                                <li><a href="material_engineering.html">Material Enginnering</a></li>
-                                <li><a href="agriculture_processing.html">Agriculture Processing</a></li>
-                                <li><a href="mechanical_engineering.html">Mechanical Engineering</a></li>
-                                <li><a href="chemical_research.html">Chemical Research</a></li>
-                                <li><a href="power_energy.html">Power & Energy</a></li>
+                                <li><a href="#">Construction</a></li>
+                                <li><a href="#">Transportation</a></li>
+                                <li><a href="#">Mineral Drilling and Blasting Holes</a></li>
+                                <li><a href="#">Service Capabilities</a></li>                                
                             </ul>
                         </div>
                     </div>
-                    <div class="col-lg-2 col-md-2 col-sm-6 col-xs-12 mbot30 quick_link_desk">
+                   <!--  <div class="col-lg-2 col-md-2 col-sm-6 col-xs-12 mbot30 quick_link_desk">
                         <h6>Quick Links</h6>
                         <ul class="ftr_nav">
                             <li><a href="index.html">Home</a></li>
@@ -682,14 +698,14 @@
                             <li><a href="news.html">News</a></li>
                             <li><a href="#">Career</a></li>
                         </ul>
-                    </div>
+                    </div> -->
                     <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 mbot30 get_touch">
                         <h6>Get In Touch</h6>
                         <ul class="ftr_nav get_in_touch">
-                            <li class="ftr_location_icon"><span class="txt-big">Factorial pvt. Ltd.</span> 42B, Tailstoi Town 5248 MT, Wordwide</li>
-                            <li class="ftr_phn_icon">+ 01865 524 8503 / 1254 954 7854</li>
-                            <li class="ftr_msg_icon">contact@Factorial.com</li>
-                            <li class="ftr_clock_icon">Monday - Friday : 800 - 1900</li>
+                            <li class="ftr_location_icon"><span class="txt-big">ADN DRILLING SOLUTIONS UG. LIMITED.</span> Minister's Village - Ntinda, Corporation Road, Kampala, Uganda</li>
+                            <li class="ftr_phn_icon">+256 772 430003 / +255 767 826415</li>
+                            <li class="ftr_msg_icon">info@adndrilling.com</li>
+                            <li class="ftr_clock_icon">Monday - Friday : 8:00 - 19:00</li>
                         </ul>
                     </div>
                 </div>
@@ -701,10 +717,10 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-6 col-md-6 col-sm-8 col-xs-12 txt_center">
-                        <p>Copyright © Factorial 2018. All rights reserved. </p>
+                        <p>Copyright © ADN <script>document.write(new Date().getFullYear());</script>. All rights reserved. </p>
                     </div>
                     <div class="col-lg-6 col-md-6 col-sm-4 col-xs-12 text-right txt_center">
-                        <p>Created by: DesignArc </p>
+                        <p>Created by: Tripple K </p>
                     </div>
                 </div>
             </div>
@@ -712,7 +728,7 @@
         <!-- Copyright End-->
     </footer>
     <!-- =========footer end============-->
-    <div class="search_overlay"><a href="javascript:void(0)" class="close_search"> </a>
+   <!--  <div class="search_overlay"><a href="javascript:void(0)" class="close_search"> </a>
         <div class="search_main_container">
             <h4>Search</h4>
             <form>
@@ -720,7 +736,7 @@
                 <input type="button" class="search_lghtbox_btn" value="submit">
             </form>
         </div>
-    </div>
+    </div> -->
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins)-->
     <script src="js/jquery/1.12.4/jquery.min.js"></script>
     <!-- <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script> -->
