@@ -130,6 +130,10 @@ ul.locations li i{
 	width:50%;
 }
 
+/* ------------------------------- INNER PAGES ---------------------------------------- */
+.dedicated-team-img-holder .overlay ul li a {
+	background: #2488e6;
+}
 /* MEDIA QUERIES FOR LAPTOP */
 @media all and (min-width : 900px) {
 
